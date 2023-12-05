@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* npx tailwindcss -i ./tailwind.css -o ./public/frontend/css/app.css --watch */
+body {
+    color: #53bde7;
+}
