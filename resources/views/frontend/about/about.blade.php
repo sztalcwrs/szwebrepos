@@ -89,36 +89,45 @@ p {
 
 h2 {
     margin-top: 30px;
-    font-size: 20px; 
+    font-size: 20px;
 }
 
 .imgBox {
     display: flex;
     align-items: center;
     justify-content: center;
- 
-}
 
+}
 </style>
 @endsection
 
 @section('content')
 <div class="about-section">
-    <h1>About Us</h1>
+    <h1>About Our Company</h1>
     <p>
-        Welcome to Sardar Zadran Poultry Pharmaceuticals & Trade! Based in Afghanistan, we specialize in providing top-notch healthcare solutions for poultry, with a primary focus on chickens.
+        Welcome to Sardar Zadran Poultry Pharmaceuticals & Trade! Based in Afghanistan, we specialize in providing
+        top-notch healthcare solutions for poultry, with a primary focus on chickens.
     </p>
     <p>
-        At Sardar Zadran, we develop specialized medications exclusively designed for the well-being of chickens. Our veterinary medicines are trusted by poultry farmers across Afghanistan, ensuring the health and vitality of their feathered flocks. From easy-to-administer drugs to specially formulated chicken feed for all stages of life, we are committed to promoting the strength and happiness of poultry.
+        At Sardar Zadran, we develop specialized medications exclusively designed for the well-being of chickens. Our
+        veterinary medicines are trusted by poultry farmers across Afghanistan, ensuring the health and vitality of
+        their feathered flocks. From easy-to-administer drugs to specially formulated chicken feed for all stages of
+        life, we are committed to promoting the strength and happiness of poultry.
     </p>
     <p>
-        At Sardar Zadran, we develop specialized medications exclusively designed for the well-being of chickens. Our veterinary medicines are trusted by poultry farmers across Afghanistan, ensuring the health and vitality of their feathered flocks. From easy-to-administer drugs to specially formulated chicken feed for all stages of life, we are committed to promoting the strength and happiness of poultry.
-    </p> 
-    <p>
-        Our mission is clear: to contribute to the thriving life of every chicken in Afghanistan. By collaborating closely with poultry farmers and veterinarians, we aim to deliver the best possible care to every bird under our wing.
+        At Sardar Zadran, we develop specialized medications exclusively designed for the well-being of chickens. Our
+        veterinary medicines are trusted by poultry farmers across Afghanistan, ensuring the health and vitality of
+        their feathered flocks. From easy-to-administer drugs to specially formulated chicken feed for all stages of
+        life, we are committed to promoting the strength and happiness of poultry.
     </p>
-     <p>
-        Join us on our journey to make Afghanistan a better place for our poultry friends. Together, we can make a significant impact on the well-being of chickens and the poultry industry as a whole!
+    <p>
+        Our mission is clear: to contribute to the thriving life of every chicken in Afghanistan. By collaborating
+        closely with poultry farmers and veterinarians, we aim to deliver the best possible care to every bird under our
+        wing.
+    </p>
+    <p>
+        Join us on our journey to make Afghanistan a better place for our poultry friends. Together, we can make a
+        significant impact on the well-being of chickens and the poultry industry as a whole!
     </p>
 
 
@@ -132,10 +141,11 @@ h2 {
                 <img src="{{asset('backend/imgages/profile/ceo.jpg')}}" alt="Jane" style="width:70%">
             </div>
             <div class="container">
-                <h2>Mohammad Sardar Hamdard</h2> 
+                <h2>Mohammad Sardar Hamdard</h2>
                 <p class="title">CEO & Founder</p>
-                <p><a href="mailto:"ceo@szpoultry.com">ceo@szpoultry.com</a></p>
-                <p><a class="button" href="https://wa.me/93788803262" target="_blank"><i class="fab fa-whatsapp"></i> Whatsapp</a></p>
+                <p><a href="mailto:" ceo@szpoultry.com">ceo@szpoultry.com</a></p>
+                <p><a class="button" href="https://wa.me/93788803262" target="_blank"><i class="fab fa-whatsapp"></i>
+                        Whatsapp</a></p>
             </div>
         </div>
     </div>
@@ -147,8 +157,9 @@ h2 {
             <div class="container">
                 <h2>Muhammad Qaseem Hakimi</h2>
                 <p class="title">Program Director</p>
-                <p><a href="mailto:"muhammad_qaseem@szpoultry.com">muhammad_qaseem@szpoultry.com</a></p>
-                <p><a class="button" href="https://wa.me/93799301828" target="_blank"><i class="fab fa-whatsapp"></i> Whatsapp</a></p>
+                <p><a href="mailto:" muhammad_qaseem@szpoultry.com">muhammad_qaseem@szpoultry.com</a></p>
+                <p><a class="button" href="https://wa.me/93799301828" target="_blank"><i class="fab fa-whatsapp"></i>
+                        Whatsapp</a></p>
             </div>
         </div>
     </div>
@@ -160,8 +171,9 @@ h2 {
             <div class="container">
                 <h2>Abdul Jabar Niazy</h2>
                 <p class="title">Data Entry Officer</p>
-                <p><a href="mailto:"abduljabarniazy@szpoultry.com">abduljabarniazy@szpoultry.com</a></p>
-                <p><a class="button" href="https://wa.me/93782060215" target="_blank"><i class="fab fa-whatsapp"></i> Whatsapp</a></p>
+                <p><a href="mailto:" abduljabarniazy@szpoultry.com">abduljabarniazy@szpoultry.com</a></p>
+                <p><a class="button" href="https://wa.me/93782060215" target="_blank"><i class="fab fa-whatsapp"></i>
+                        Whatsapp</a></p>
             </div>
         </div>
     </div>
@@ -176,8 +188,9 @@ h2 {
             <div class="container">
                 <h2>Fazal Rahman Azizi</h2>
                 <p class="title">Doctor</p>
-                <p><a href="mailto:"fazalrahman_azizi@szpoultry.com">fazalrahman_azizi@szpoultry.com</a></p>                
-                <p><a class="button" href="https://wa.me/93731459023" target="_blank"><i class="fab fa-whatsapp"></i> Whatsapp</a></p>
+                <p><a href="mailto:" fazalrahman_azizi@szpoultry.com">fazalrahman_azizi@szpoultry.com</a></p>
+                <p><a class="button" href="https://wa.me/93731459023" target="_blank"><i class="fab fa-whatsapp"></i>
+                        Whatsapp</a></p>
             </div>
         </div>
     </div>
@@ -191,8 +204,9 @@ h2 {
                 <div class="container">
                     <h2>Abdullah Zadran</h2>
                     <p class="title">Sale Manager</p>
-                    <p><a href="mailto:"abdullah@szpoultry.com">abdullah@szpoultry.com</a></p>                
-                    <p><a class="button" href="https://wa.me/93731426658" target="_blank"><i class="fab fa-whatsapp"></i> Whatsapp</a></p>
+                    <p><a href="mailto:" abdullah@szpoultry.com">abdullah@szpoultry.com</a></p>
+                    <p><a class="button" href="https://wa.me/93731426658" target="_blank"><i
+                                class="fab fa-whatsapp"></i> Whatsapp</a></p>
                 </div>
             </div>
         </div>
