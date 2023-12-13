@@ -41,21 +41,9 @@
 
 
         <p>{{$product->description}}
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro, sint tempore eaque deserunt
-            debitis quasi voluptatum provident, repudiandae repellat, sit tenetur? Eligendi in itaque
-            earum qui quam impedit ullam nihil.
+
         </p>
-        <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis cupiditate consequatur
-            repellendus, vel accusantium fugit expedita. Corrupti eligendi nulla, quae reprehenderit
-            accusamus aspernatur illo minus quod unde in commodi, eaque tempore, ad officia dolore
-            similique a sequi vel modi! Minus accusamus, dolor delectus excepturi reprehenderit rerum
-            cupiditate saepe nisi assumenda voluptatibus quo tenetur deleniti eveniet aperiam numquam
-            voluptates incidunt harum! Libero dolore, asperiores sequi eum accusantium soluta pariatur
-            rerum. Numquam accusantium illo dignissimos enim perferendis nihil, voluptatibus quasi
-            eveniet id porro ab labore itaque voluptas reiciendis natus obcaecati veritatis aliquid,
-            maiores pariatur aut magni blanditiis. Eius, adipisci. Quidem, expedita inventore!
-        </p>
+
 
     </div>
 </div>
