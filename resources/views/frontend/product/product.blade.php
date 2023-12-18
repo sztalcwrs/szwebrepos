@@ -13,7 +13,7 @@
     padding: 35px 0px;
 }
 
-p {
+.description {
     line-height: 2;
 }
 </style>
