@@ -1,24 +1,25 @@
 @extends('frontend.layouts.app')
 @section('style')
 <style>
-    .trending-boxx {
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
-        align-items: center;
-        align-items: center;
-        max-width: 1200px;
-        width: 90%;
-        margin: auto;
-        padding: 35px 0px;
-    }
+.trending-boxx {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    align-items: center;
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+    padding: 35px 0px;
+}
 </style>
 @endsection
 @section('content')
 <div class="trending-boxx">
     <!--img-->
     <div class="t-b-img">
-        <img alt="Travel" src="{{asset('backend/imgages/products/'.$product->image)}}" style="object-fit: scale-down;" />
+        <img alt="Travel" src="{{asset('backend/imgages/products/'.$product->image)}}"
+            style="object-fit: scale-down;" />
     </div>
     <!--text-->
     <div class="t-b-text">
@@ -39,9 +40,9 @@
     <div class="description">
 
 
-        <pre>{{$product->description}}
+        <p>{{$product->description}}
 
-        </pre>
+        </p>
 
 
     </div>
