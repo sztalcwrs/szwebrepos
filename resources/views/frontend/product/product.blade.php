@@ -1,54 +1,52 @@
 @extends('frontend.layouts.app')
 @section('style')
 <style>
-.trending-boxx {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    align-items: center;
-    align-items: center;
-    max-width: 1200px;
-    width: 90%;
-    margin: auto;
-    padding: 35px 0px;
+.title {
+ margin: 50px 0;
 }
 
-.description {
-    line-height: 2;
+.title h1 {
+
+ font-family: 'ABeeZee', Helvetica, Arial, Lucida, sans-serif;
+ font-weight: 700;
+ font-size: 40px;
+ letter-spacing: 5px;
+ text-align: center;
+
 }
 </style>
 @endsection
 @section('content')
-<div class="trending-boxx">
-    <!--img-->
-    <div class="t-b-img">
-        <img alt="Travel" src="{{asset('backend/imgages/products/'.$product->image)}}"
-            style="object-fit: scale-down;" />
+<section class="main">
+
+ <article>
+  <div class="title">
+   <h1>{{$product->title}}</h1>
+  </div>
+  <div class="content">
+   <div class="img">
+    <img src="{{asset('backend/imgages/products/'.$product->image)}}" alt="">
+   </div>
+   <div class="Composition">
+    <h2>Composition</h2>
+    <h5>Each 100ml contains:</h5>
+    <div class="composition-img">
+     <img src="https://inshalpharma.com/wp-content/uploads/2021/05/Complishell-1.jpg" alt="">
     </div>
-    <!--text-->
-    <div class="t-b-text">
-        <a href="#">{{$product->title}}</a>
-        <span>{{$product->category}}</span>
-    </div>
-    <!--price-&-Book-->
-    <div class="price-book">
-
-        <span class="t-price"></span>
-    </div>
-    <!--agency-name-->
-    <div class="agency-name" style="text-align: center; display: flex; align-items: center; justify-content: center;">
-        <!-- <img alt=" Agence Logo" src="images/Agency_Name.png" /> -->
-        <span>{{$product->company}}</span>
+   </div>
+   <div class="description">
+    <div class="type">
+     <h2>Type:</h2>
+     <h5>{{$product->category}}</h5>
     </div>
 
-    <div class="description">
-
-
-        {{$product->description}}
-
-
-
-
+    <div class="pack">
+     <h2>Pack Size:</h2>
+     <h5>500ml, 1Ltr</h5>
     </div>
-</div>
+
+   </div>
+  </div>
+ </article>
+</section>
 @endsection
